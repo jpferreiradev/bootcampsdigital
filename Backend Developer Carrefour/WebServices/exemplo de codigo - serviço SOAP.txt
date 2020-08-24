@@ -1,0 +1,11 @@
+Exemplo feito com Ptython - bibloteca Zeep
+Um código integrando com um serviço SOAP
+
+
+
+from zeep import client // importação bibloteca no Python
+
+client = Client('http://www.soapclient.com/xml/soapresponder.wsdl') // uma instância do client
+result = Client.service.Method1(bstrParam1='oi', bstrParam2='tchau')
+pring(result)
+

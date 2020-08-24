@@ -1,0 +1,24 @@
+Arquivos XML e JSON
+
+XML
+
+<endereco>
+    <cep> 9999-999</cep>
+    <bairro> Jardim Paulista </bairro> 
+    <logadouro> Av. Paulista </logadouro>
+    <cidade> São Paulo </cidade>
+    <numero> 99 </numero>
+<endereco> 
+
+
+JSON 
+
+{
+       "endereco": {
+           "cep": " 9999-99,
+           "logadouro": "Av.Paulista",
+           "bairro": "Jardim Paulista",
+           "cidade": "São Paulo",
+           "numero": 99
+       } 
+}
